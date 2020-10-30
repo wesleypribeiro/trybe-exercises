@@ -83,6 +83,14 @@ Crie uma função que exiba o conteúdo de todas as tags <p> no console.
     }
 
     changeTitle();
+
+    // Exercício 05
+    function toUpperCase () {
+      let p = document.getElementsByTagName("p")[2].innerText;
+      document.getElementsByTagName("p")[2].innerText = p.toUpperCase();
+    }
+
+    toUpperCase();
   </script>
 </body>
 
