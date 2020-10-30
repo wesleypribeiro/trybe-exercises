@@ -57,7 +57,7 @@ Crie uma função que exiba o conteúdo de todas as tags <p> no console.
 
     // Exercicio 01
     function future(futureMe) {
-      document.getElementsByTagName("p")[1].innerHTML = futureMe;
+      document.getElementsByTagName("p")[1].innerText = futureMe;
     }
 
     future('Daqui dois anos me vejo casando e trabalhando como desenvolvedor');
@@ -77,6 +77,12 @@ Crie uma função que exiba o conteúdo de todas as tags <p> no console.
 
     changeBackColor2("#FFF");
 
+    // Exercício 04
+    function changeTitle() {
+      document.getElementsByTagName("h1")[0].innerText = "Exercício 5.1 - JavaScript";
+    }
+
+    changeTitle();
   </script>
 </body>
 
