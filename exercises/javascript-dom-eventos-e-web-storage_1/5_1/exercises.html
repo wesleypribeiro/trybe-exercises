@@ -69,6 +69,14 @@ Crie uma função que exiba o conteúdo de todas as tags <p> no console.
 
     changeBackColor("rgb(76,164,109)");
 
+    // Exercício 03
+    function changeBackColor2(color) {
+      let div = document.getElementsByClassName("main-content")[0];
+      div.getElementsByTagName("div")[0].style.backgroundColor = color;
+    }
+
+    changeBackColor2("#FFF");
+
   </script>
 </body>
 
