@@ -76,13 +76,18 @@
 
         // 4 - Adicione a tag p como filho do div criado no passo 3 e coloque algum texto;
         let p = document.createElement('p');
-        p.innerText = "Esse é um texto!"
+        p.innerText = 'Esse é um texto!';
         document.querySelector('.main-content').firstChild.appendChild(p);
 
         // 5 - Adicione a tag div com a classe left-content como filho da tag div criada no passo 2;
         let left_content = document.createElement('div');
         left_content.className = 'left-content';
         document.querySelector('.main-content').appendChild(left_content);
+
+        // 6 - Adicione a tag div com a classe right-content como filho da tag div criada no passo 2;
+        let right_content = document.createElement('div');
+        right_content.className = 'right-content';
+        document.querySelector('.main-content').appendChild(right_content);
 
     </script>
 </body>
