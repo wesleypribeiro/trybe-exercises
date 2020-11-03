@@ -79,6 +79,11 @@
         p.innerText = "Esse é um texto!"
         document.querySelector('.main-content').firstChild.appendChild(p);
 
+        // 5 - Adicione a tag div com a classe left-content como filho da tag div criada no passo 2;
+        let left_content = document.createElement('div');
+        left_content.className = 'left-content';
+        document.querySelector('.main-content').appendChild(left_content);
+
     </script>
 </body>
 
