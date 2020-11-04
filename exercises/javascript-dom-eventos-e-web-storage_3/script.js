@@ -41,3 +41,10 @@ function createDaysOfTheWeek() {
   holiday_btn.id = 'btn-holiday';
   holiday_btn.innerText = 'Feriados';
   document.querySelector('.buttons-container').appendChild(holiday_btn);
+
+  // EXERCÍCIO 3
+  holiday_btn.addEventListener('click', function () {
+    let holidayDays = document.querySelectorAll('.holiday');
+    if (holidayDays[0].style.backgroundColor == 'green') { for (day of holidayDays) { day.style.backgroundColor = 'rgb(238,238,238)';} }
+    else { for (day of holidayDays) { day.style.backgroundColor = 'green';}}
+  })
