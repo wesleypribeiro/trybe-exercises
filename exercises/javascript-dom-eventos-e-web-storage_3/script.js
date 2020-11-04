@@ -45,6 +45,14 @@ function createDaysOfTheWeek() {
   // EXERCÍCIO 3
   holiday_btn.addEventListener('click', function () {
     let holidayDays = document.querySelectorAll('.holiday');
-    if (holidayDays[0].style.backgroundColor == 'green') { for (day of holidayDays) { day.style.backgroundColor = 'rgb(238,238,238)';} }
-    else { for (day of holidayDays) { day.style.backgroundColor = 'green';}}
+    if (holidayDays[0].style.backgroundColor == 'white') { for (day of holidayDays) { day.style.backgroundColor = 'rgb(238,238,238)';} }
+    else { for (day of holidayDays) { day.style.backgroundColor = 'white';}}
   })
+
+  // EXERCÍCIO 4
+  function friday (Sexta_feira) {}
+
+  let friday_btn = document.createElement('button');
+  friday_btn.id = 'btn-friday';
+  friday_btn.innerText = 'Sexta-feira';
+  document.querySelector('.buttons-container').appendChild(friday_btn);
