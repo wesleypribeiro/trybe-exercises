@@ -41,6 +41,28 @@
                 <input type="radio" name="type" id="type-radio-2" required /> Apartamento
             </label>
         </fieldset>
+
+        <fieldset>
+            <legend>Emprego</legend>
+            <label for="resume-txt">
+                Resumo do currículo:
+                <br />
+                <textarea name="resume" id="resume-txt" cols="30" rows="10" maxlength="1000"></textarea>
+            </label>
+            <br />
+            <label for="job-input">
+                Cargo:
+                <input type="text" name="job" id="job-input" maxlength="40" required />
+            </label>
+            <label for="job-description-input">
+                Descrição do cargo:
+                <input type="text" name="job-description" id="job-description-input" maxlength="500" required />
+            </label>
+            <label for="beginning-date-input">
+                Data de início:
+                <input type="date" name="beginning-date" id="beginning-date-input" required />
+            </label>
+        </fieldset>
     </form>
 </body>
 <script src="script.js"></script>
