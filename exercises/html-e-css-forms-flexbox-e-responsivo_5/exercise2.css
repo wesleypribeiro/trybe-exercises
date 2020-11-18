@@ -1,0 +1,58 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+p {
+    font-size: 22px;
+    text-align: center;
+    padding: 5px 20px
+}
+
+p:first-child {
+    margin-top: 15px;
+    padding: 0;
+}
+
+nav {
+    text-align: center;
+}
+
+ul {
+    font-size: 20px;
+    list-style: none;
+}
+
+h2 {
+    text-align: center;
+    margin: 10px auto;
+}
+
+.aside-one {
+    text-align: center;
+}
+
+.aside-two {
+    text-align: center;
+}
+
+h1 {
+    font-size: 24px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 20px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+footer p {
+    padding: 0;
+    margin: 10px;
+    font-size: 18px;
+}
