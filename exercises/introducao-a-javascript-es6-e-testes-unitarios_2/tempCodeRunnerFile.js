@@ -30,4 +30,12 @@ const tamanhoObjeto = obj => console.log(Object.keys(obj).length);
 
 // 4 - Crie uma função para listar os valores de um objeto. Essa função deve receber um objeto como parâmetro.
 const listaValores = obj => console.log(Object.values(obj));
-listaValores(lesson1);
+
+// 5 - Crie um objeto de nome allLessons, que deve agrupar todas as aulas através do Object.assign. Cada chave desse novo objeto será uma aula, sendo essas chaves: lesson1, lesson2 e lesson3.
+allLessons = Object.assign({}, lesson1, lesson2, lesson3);
+
+// 6 - Usando o objeto criado no exercício 5, crie uma função que retorne o número total de estudantes em todas as aulas.
+
+// 7 - Crie uma função que obtenha o valor da chave de acordo com a sua posição no objeto.
+const getValueByNumber = (obj, number) => console.log(Object.values(obj)[number]);
+getValueByNumber(lesson1, 0);
